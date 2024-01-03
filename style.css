@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    /* điều hướng các flex item theo chiều ngang */
+    justify-content: center;
+    /* điều hướng các item theo chiều dọc */
+    align-items: center;
+    height: 100vh; /* view heigh*/
+    gap: 10px;
+    /* flex: 1; */
+    flex-wrap: wrap-reverse;
+}
+
+.item {
+    height: 200px;
+    width: 200px;
+}
+
+.item-1 {
+    background-color: red;
+    /* flex: 1; */
+}
+.item-2 {
+    background-color: yellow;
+    /* flex: 1; */
+}
+.item-3 {
+    background-color: green;
+    /* flex: 1; */
+}
+
